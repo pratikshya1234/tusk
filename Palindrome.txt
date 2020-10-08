@@ -22,7 +22,7 @@ public class stgpan {
 			else 
 				System.out.println(" is not a plaindrome");
 		}
-		
+		//palindrome means the revrese of a string is same as the original string.
 		
 		}
 	
