@@ -17,10 +17,10 @@ public class stgpan {
 			s2=s2+c[i];
 		}
 		if (s2.equals(s1)) {
-			System.out.println("palindrome");
+			System.out.println(" is a palindrome");
 		}
 			else 
-				System.out.println("not plaindrome");
+				System.out.println(" is not a plaindrome");
 		}
 		
 		
