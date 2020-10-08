@@ -1,0 +1,29 @@
+package stringpalindrome.org;
+
+import java.util.Scanner;
+
+public class stgpan {
+
+	public static void main(String[] args) {
+		Scanner scn=new Scanner (System.in);
+		System.out.println("enter a string");
+		String n=scn.nextLine();
+		String s1="";
+		String s2="";
+		char[]c=s1.toCharArray();
+		int l=c.length;
+		for(int i=l-1;i>=0;i++)
+		{
+			s2=s2+c[i];
+		}
+		if (s2.equals(s1)) {
+			System.out.println("palindrome");
+		}
+			else 
+				System.out.println("not plaindrome");
+		}
+		
+		
+		}
+	
+	
